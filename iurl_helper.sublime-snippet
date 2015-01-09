@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[include Rails.application.routes.url_helpers]]></content>
+  <tabTrigger>iurl_helper</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>Include rails application url routes helper</description>
+</snippet>

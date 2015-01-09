@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+with_options if: :${1:method_name} do |${2:option}|
+  ${2:option}.validates :role, presence: true
+end
+
+def ${1:method_name}
+  ${3:...}
+end
+]]></content>
+  <tabTrigger>with_options</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>with_options method for valdation</description>
+</snippet>

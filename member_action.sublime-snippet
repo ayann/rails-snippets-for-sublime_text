@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+member_action :${1:title}, :method => :${2:method} do
+  ${3:Action ...}   
+end
+]]></content>
+  <tabTrigger>member_action</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>Active admin member action</description>
+</snippet>

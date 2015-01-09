@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[f.semantic_errors *f.object.errors.keys]]></content>
+  <tabTrigger>admin_form_error</tabTrigger>
+  <scope>source.ruby</scope>
+  <scope>Display Active admin form error</scope>
+</snippet>

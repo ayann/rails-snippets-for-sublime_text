@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+accepts_nested_attributes_for :${1:model_name}
+]]></content>
+  <tabTrigger>accepts_nested_attributes_for</tabTrigger>
+  <scope>source.ruby</scope>
+  <scope>Rails accepts nested attributes</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[scope :${1:scope_name}, -> (${2:param}){ ${3:query} }]]></content>
+  <tabTrigger>pscope</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>Rails scope with parameter</description>
+</snippet>

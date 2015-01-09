@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+action_item :${1:title} => :show do
+  link_to "${2:link title}", ${3:url}
+end
+]]></content>
+  <tabTrigger>action_item</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>Active admin action item</description>
+</snippet>
