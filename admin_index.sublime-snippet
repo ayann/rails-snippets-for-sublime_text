@@ -4,7 +4,7 @@ index do
   selectable_column
   column :${1:attribute}
   column :${2:attribute}
-  column :${3:attribute}
+  column :created_at
   actions
 end
 ]]></content>
