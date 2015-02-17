@@ -3,7 +3,6 @@
 default: &default
   adapter: mysql2
   encoding: utf8
-  pool: 5
   username: ${1:username}
   password: ${2:password}
 
@@ -17,11 +16,11 @@ test:
 
 production:
   <<: *default
-  database: ${3:database}_production
+  database: ${3:database}
 
 staging:
   <<: *default
-  database: ${3:database}_staging
+  database: ${3:database}
 ]]></content>
   <tabTrigger>database</tabTrigger>
   <scope>source.yaml</scope>
