@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+index do
+  selectable_column
+  column :${1:attribute}
+  column :${2:attribute}
+  column :${3:attribute}
+  actions
+end
+]]></content>
+  <tabTrigger>admin-index</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>Active admin index page element</description>
+</snippet>
