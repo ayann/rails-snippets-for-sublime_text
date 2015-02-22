@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+form do |f|
+  f.semantic_errors *f.object.errors.keys
+  f.inputs "${1:title}" do
+    f.input :${2:attribute}
+    f.input :${3:attribute}, as: :${4:[hidden|radio|file|select|string|datalist|text]}, input_html:{}
+  end
+  f.actions
+end
+]]></content>
+  <tabTrigger>form:admin</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>

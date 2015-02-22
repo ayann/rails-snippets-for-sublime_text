@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+columns do
+  column do
+    ${1:...}
+  end
+end
+]]></content>
+  <tabTrigger>columns:admin</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>

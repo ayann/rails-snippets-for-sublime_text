@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+menu parent: "${1:parent}", label: "${2:label}",
+priority: ${3:priotity}, if: proc{ ${4:condition} }
+]]></content>
+  <tabTrigger>menu:admin</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+f.inputs "${1:title}" do
+  f.input :${2:attribute}
+end
+]]></content>
+  <tabTrigger>inputs:block</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>

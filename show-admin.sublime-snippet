@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+show do |${1:model}|
+  panel "${2:title}" do
+    attributes_table_for ${1:model} do
+      row :${3:attribute}
+    end
+  end
+end
+]]></content>
+  <tabTrigger>show:admin</tabTrigger>
+  <scope>source.ruby</scope>
+</snippet>
